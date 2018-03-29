@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>CRYSTALS | COLLECTOR</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-light container">
+        <div class="container justify-content-center image-fluid">
+                <h1>NEW YORK TIMES SEARCH</h1>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row no-gutters main">
+            <div class="col col-12 order-last order-md-first text-center rounded">
+                <h2 class="text-md-left">Search Term:</h2>
+                <h2 class="text-md-left">Number of Records:</h2>
+                <h2 class="text-md-left">Start Year (Optional):</h2>
+                <h2 class="text-md-left">End Year (Optional):</h2>
+            </div>
+            <div class="col col-12 ml-auto text-center rounded">
+                <div class="row no-gutters">
+                    <div class="col col-3">
+                        <img class="crystalImage" id="crystalImage1" src="assets/images/crystal1.png">
+                    </div>
+                    <div class="col col-3">
+                        <img class="crystalImage" id="crystalImage2" src="assets/images/crystal2.png">
+                    </div>
+                    <div class="col col-3">
+                        <img class="crystalImage" id="crystalImage3" src="assets/images/crystal3.png">
+                    </div>
+                    <div class="col col-3">
+                        <img class="crystalImage" id="crystalImage4" src="assets/images/crystal4.png">
+                    </div>
+                </div>
+                <div class="curscore row no-gutters">
+                    <div class="col col-12">
+                        <h1>CURRENT SCORE</h1>
+                        <P><small id="currentScore">50</small></P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="loser" class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <h1 class="text-center col-12">LOSER</h1><br>
+            <a href="#"><P onclick="goback()" class="text-center col-12 button"><small>TRY AGAIN</small></P></a>
+        </div>
+    </div>
+    <div id="winner" class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <h1 class="text-center col-12">WINNER</h1><br>
+            <a href="#"><P onclick="goback()" class="text-center col-12 button"><small>PLAY AGAIN</small></P></a>
+        </div>
+    </div>
+    
+    
+    <script src="assets/javascript/game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</body>
+</html>
